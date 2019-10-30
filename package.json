@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "electron ./dist",
+    "build": "npm-run-all build:electron build:frontend",
+    "build:electron": "cd src/electron && npm run build",
+    "build:frontend": "cd src/frontend && npm run build",
     "dev": "npm-run-all --parallel dev:electron:build dev:frontend:build dev:electron:start",
     "dev:electron:build": "cd src/electron && npm start",
     "dev:electron:start": "electron ./dist",

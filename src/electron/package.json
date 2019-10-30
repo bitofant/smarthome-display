@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "index.js",
   "scripts": {
-    "start": "tsc -w"
+    "start": "tsc -w",
+    "build": "tsc"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [],
