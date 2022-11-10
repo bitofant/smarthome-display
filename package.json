@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/bitofant/smarthome-display#readme",
   "dependencies": {
-    "electron": "^7.0.0",
+    "electron": "^18.3.7",
     "express": "^4.17.1"
   },
   "devDependencies": {
